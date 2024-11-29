@@ -115,3 +115,11 @@ php artisan test
 ## Lisensi
 
 FREE USE
+
+# Gambar ERD
+![Alt Text](ERD.png)
+
+
+
+
+# Gambar Flowchart
