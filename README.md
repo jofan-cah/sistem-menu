@@ -1,13 +1,9 @@
-# BaksoApp - Aplikasi Manajemen Resep Kuliner
+# AppBahan - Aplikasi Manajemen Resep Kuliner
 
-BaksoApp adalah aplikasi berbasis web untuk membantu Anda mengelola resep kuliner, bahan-bahan, dan kategori dengan mudah. Cocok untuk bisnis makanan atau penggunaan pribadi.
+AppBahan adalah aplikasi berbasis web untuk membantu Anda mengelola resep kuliner, bahan-bahan, dan kategori dengan mudah. Cocok untuk bisnis makanan atau penggunaan pribadi.
 
-## Demo Website
-
-Kunjungi aplikasi langsung di: [https://sistem-menu.jofan.my.id/](https://sistem-menu.jofan.my.id/)
 
 ## Akun Contoh
-
 Untuk memudahkan pengujian, berikut adalah akun default:
 
 1. **Akun Master**
@@ -45,8 +41,8 @@ Ikuti langkah-langkah berikut untuk menjalankan BaksoApp di lokal Anda.
 
 1. Clone repository ini:
 ```bash
-git clone https://github.com/username/baksoapp.git
-cd baksoapp
+git clone https://github.com/jofan-cah/sistem-menu.git
+cd sistem-menu
 ```
 
 2. Install dependensi Composer:
@@ -62,6 +58,10 @@ cp .env.example .env
 4. Generate app key:
 ```bash
 php artisan key:generate
+```
+
+```bash
+php artisan storage:link
 ```
 
 5. Konfigurasi database di file `.env`:
