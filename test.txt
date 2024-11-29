@@ -1,0 +1,50 @@
+
+   PASS  Tests\Unit\ExampleTest
+  ✓ that true is true                                                                                                0.01s  
+
+   PASS  Tests\Unit\Controllers\CategoryControllerTest
+  ✓ it can display category index page                                                                               1.27s  
+  ✓ it can show create category page                                                                                 0.05s  
+  ✓ it can show specific category page                                                                               0.04s  
+  ✓ it can create a new category                                                                                     0.07s  
+  ✓ it validates category creation with invalid data                                                                 0.05s  
+  ✓ it can show edit category page                                                                                   0.05s  
+  ✓ it can update category information                                                                               0.07s  
+  ✓ it validates category update with invalid data                                                                   0.05s  
+  ✓ it can delete a category                                                                                         0.05s  
+
+   PASS  Tests\Unit\Controllers\IngredientControllerTest
+  ✓ it can display ingredient index page                                                                             0.05s  
+  ✓ it can show create ingredient page                                                                               0.04s  
+  ✓ it can create a new ingredient                                                                                   0.05s  
+  ✓ it validates ingredient creation with invalid data                                                               0.06s  
+  ✓ it can show edit ingredient page                                                                                 0.05s  
+  ✓ it can update ingredient information                                                                             0.05s  
+  ✓ it validates ingredient update with invalid data                                                                 0.05s  
+  ✓ it can delete an ingredient                                                                                      0.05s  
+  ✓ it prevents creating ingredient with long name                                                                   0.04s  
+  ✓ it prevents creating ingredient with long unit                                                                   0.05s  
+
+   PASS  Tests\Unit\Controllers\RecipeControllerTest
+  ✓ it can display recipe index page                                                                                 0.06s  
+  ✓ it can show specific recipe page                                                                                 0.06s  
+  ✓ it can show create recipe page                                                                                   0.05s  
+  ✓ it can create a new recipe                                                                                       0.05s  
+  ✓ it validates recipe creation with invalid data                                                                   0.04s  
+  ✓ it can show edit recipe page                                                                                     0.05s  
+  ✓ it can update recipe information                                                                                 0.05s  
+  ✓ it can delete a recipe                                                                                           0.05s  
+
+   PASS  Tests\Unit\Controllers\UserControllerTest
+  ✓ it can display user index page                                                                                   0.04s  
+  ✓ it can show create user page                                                                                     0.05s  
+  ✓ it can create a new user                                                                                         0.06s  
+  ✓ it validates user creation with invalid data                                                                     0.05s  
+  ✓ it can show edit user page                                                                                       0.06s  
+  ✓ it can update user information                                                                                   0.04s  
+  ✓ it can update user with password change                                                                          0.04s  
+  ✓ it can delete a user                                                                                             0.06s  
+
+  Tests:    36 passed (132 assertions)
+  Duration: 3.19s
+
