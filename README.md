@@ -66,12 +66,7 @@ php artisan storage:link
 
 5. Konfigurasi database di file `.env`:
 ```
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=baksoapp
-DB_USERNAME=your_username
-DB_PASSWORD=your_password
+Sesuaikan jika ana ingin mengunkan databse yang tidak sama dengan contoh
 ```
 
 6. Jalankan migrasi database:
@@ -112,7 +107,7 @@ php artisan test
 
 ## Teknologi yang Digunakan
 
-- Laravel 10.x
+- Laravel 11.x
 - MySQL
 - Bootstrap
 - Laravel Breeze
