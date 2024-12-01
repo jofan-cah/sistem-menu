@@ -3,6 +3,16 @@
 AppBahan adalah aplikasi berbasis web untuk membantu Anda mengelola resep kuliner, bahan-bahan, dan kategori dengan mudah. Cocok untuk bisnis makanan atau penggunaan pribadi.
 
 
+# Panduan Uji Coba Aplikasi
+
+Aplikasi ini dapat diuji melalui tautan berikut:  
+[**Login Aplikasi**](https://menu.jofan.my.id/login)
+ 
+**[https://menu.jofan.my.id/login](https://menu.jofan.my.id/login)**
+
+---
+
+
 ## Akun Contoh
 Untuk memudahkan pengujian, berikut adalah akun default:
 
